@@ -1,0 +1,20 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: center;
+}
+.card{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    border: 2px solid black;
+}
+.card h1{
+    background-color: antiquewhite;
+}
+.card:hover{
+    transform: rotateY(180deg);
+    transition: 2s;
+}
